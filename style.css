@@ -1,0 +1,35 @@
+.main-heading {
+  border-style: solid;
+  text-align: center;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.sub-heading {
+  border-style: solid;
+  text-align: center;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.page-color {
+  background-color: #aa98a9;
+}
+
+/* index page */
+.chef {
+  border-style: solid;
+  align-items: center;
+  border-radius: 10px;
+}
+
+thead {
+  text-align: center;
+}
+
+.recipe-name {
+  border-style: solid;
+  text-align: center;
+  border-radius: 10px;
+  background-color: aliceblue;
+}

@@ -5,17 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin's Recipes</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>Odin Recipes</h1>
-    <h3>By: Elijah Gilead</h3>
-    <img src="./img/mancok.jpg" alt="cooking man" width="500px " />
+  <body class="page-color">
+    <h1 class="main-heading">Odin Recipes</h1>
+    <h3><u>By: Elijah Gilead</u></h3>
+    <img class="chef" src="./img/mancok.jpg" alt="cooking man" width="500px " />
     <br />
-    <h2>Recipes to Try!</h2>
-    <a href="./recipes/lasagna.html">Easy Lasagna!</a>
-    <br />
-    <a href="./recipes/oxtail.html">Jamican Ox Tails</a>
-    <br />
-    <a href="./recipes/soup.html">Spilt Pea Soup</a>
+
+    <div class="recipe-name">
+      <table class="tableborder" width="100%">
+        <thead>
+          <h2>Recipes to Try!</h2>
+        </thead>
+        <tbody>
+          <thead>
+            <tr>
+              <th>
+                Italian
+                <img
+                  src="./img/flag-italy.png"
+                  alt="Italian flag"
+                  width="20px"
+                />
+              </th>
+              <th>
+                Jamican
+                <img
+                  src="./img/Flag_of_Jamaica.png"
+                  alt="Jamaican flag"
+                  width="20px"
+                />
+              </th>
+              <th>
+                Greek
+                <img
+                  src="./img/Flag-Greece.webp"
+                  alt="Greek Flag"
+                  width="20px"
+                />
+              </th>
+            </tr>
+          </thead>
+          <tr>
+            <td><a href="./recipes/lasagna.html">Easy Lasagna!</a></td>
+            <td><a href="./recipes/oxtail.html">Jamican Ox Tails</a></td>
+            <td><a href="./recipes/soup.html">Spilt Pea Soup</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
