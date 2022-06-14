@@ -23,6 +23,13 @@
   border-radius: 10px;
 }
 
+/* photo of food images    */
+.food-photos {
+  border-style: solid;
+  align-items: center;
+  border-radius: 10px;
+}
+
 thead {
   text-align: center;
 }
